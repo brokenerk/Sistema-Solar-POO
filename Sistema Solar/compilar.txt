@@ -1,0 +1,17 @@
+
+
+***************PARA EL FRAME DE LARA*********
+javac -cp ".:vlcj-3.10.1Video/vlcj-3.10.1.jar:vlcj-3.10.1Video/jna-3.5.1.jar:vlcj-3.10.1Video/jna-4.1.0.jar" frame.java
+
+java -cp ".:vlcj-3.10.1Video/vlcj-3.10.1.jar:vlcj-3.10.1Video/jna-3.5.1.jar:vlcj-3.10.1Video/jna-4.1.0.jar" frame
+
+
+
+javac -cp ".:vlc/vlcj-3.10.1.jar:vlc/jna-3.5.1.jar:vlc/jna-4.1.0.jar:j3dcore.jar:j3dutils.jar:vecmath.jar" SistemaSolar.java
+java -cp ".:vlc/vlcj-3.10.1.jar:vlc/jna-3.5.1.jar:vlc/jna-4.1.0.jar:j3dcore.jar:j3dutils.jar:vecmath.jar" SistemaSolar
+
+javac -cp ".;vlc/vlcj-3.10.1.jar;vlc/jna-3.5.1.jar;vlc/jna-4.1.0.jar;j3dcore.jar;j3dutils.jar;vecmath.jar" SistemaSolar.java
+java -cp ".;vlc/vlcj-3.10.1.jar;vlc/jna-3.5.1.jar;vlc/jna-4.1.0.jar;j3dcore.jar;j3dutils.jar;vecmath.jar" SistemaSolar
+
+
+javac -cp ".:j3dcore.jar:j3dutils.jar:vecmath.jar" SolarSis.java
