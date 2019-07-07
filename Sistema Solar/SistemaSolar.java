@@ -432,7 +432,7 @@ public class SistemaSolar extends MouseAdapter implements Runnable,ActionListene
 	public void CrearSol()
 	{
 		Planeta_1 s;
-		s=new Planeta_1("Sol",695700f/*Radio*/,1146/*V_ROT*/,0/*V_TRAS*/,0.0f/*DIST*/,"sol.jpg");
+		s=new Planeta_1("Sol",695700f/*Radio*/,1146/*V_ROT*/,0/*V_TRAS*/,0.0f/*DIST*/,"Sol.jpg");
 		Planetas[0]=s;
 	}
 	public void CrearMercurio()
@@ -450,7 +450,7 @@ public class SistemaSolar extends MouseAdapter implements Runnable,ActionListene
 	public void CrearTierra()
 	{
 		
-		Planeta_1 Tierra=new Planeta_1("Tierra",127420f,1146,2000,0.2f,"Tierra.JPG");		
+		Planeta_1 Tierra=new Planeta_1("Tierra",127420f,1146,2000,0.2f,"Tierra.jpg");		
 		TGPlanetas[2]=Tierra.RSEje;
 		Planetas[3]=Tierra;	
 		Satelite Luna=new Satelite("Luna",60000f/*Radio*/,2000/*V_ROT*/,2000/*V_TRAS*/,2000/*Vel_Tras_Planeta*/,0.01f/*Dis_Planeta*/,0.2f/*Distancia al sol*/,0.02f,"Luna.jpg");

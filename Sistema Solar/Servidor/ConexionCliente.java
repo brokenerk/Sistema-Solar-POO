@@ -35,8 +35,8 @@ public class ConexionCliente extends Thread implements Observer
     
 
 
-    	@Override
-    	public void run()
+    @Override
+    public void run()
 	{
 		String mensajeRecibido;
 		boolean conectado = true;
